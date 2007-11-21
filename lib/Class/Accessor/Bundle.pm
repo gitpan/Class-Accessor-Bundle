@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 1;
@@ -27,8 +27,6 @@ Class::Accessor::Bundle - install Class::Accessor and derived distributions
 This bundle contains L<Class::Accessor> and all related distributions.
 
 =head1 CONTENTS
-
-API
 
 Class::Accessor::Assert
 
@@ -56,6 +54,8 @@ Class::Accessor::Lvalue
 
 Class::Accessor::Named
 
+Class::Accessor::Ref
+
 =head1 TAGS
 
 If you talk about this module in blogs, on del.icio.us or anywhere else,
@@ -63,7 +63,7 @@ please use the C<classaccessorbundle> tag.
 
 =head1 VERSION 
                    
-This document describes version 0.01 of L<Class::Accessor::Bundle>.
+This document describes version 0.02 of L<Class::Accessor::Bundle>.
 
 =head1 BUGS AND LIMITATIONS
 
